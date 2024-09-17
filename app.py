@@ -10,8 +10,8 @@ def home():
     return render_template("home.html")
 
 
-@app.route("/about")
-def about():
+@app.route("/acercade")
+def acercade():
     return render_template("acercade.html")
 
 
